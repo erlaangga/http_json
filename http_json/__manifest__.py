@@ -23,10 +23,10 @@
     'version': '1.0',
     'category': 'Web',
     'summary': 'Patch Odoo to support raw JSON request',
-    'description': '''When we have some endpoints to use just like REST API in Odoo, we have to call the endpoint using JSONRPC to request the resource.
-This module allows you to bypass the required schema, so you can just call the endpoint with your JSON payload.
+    'description': '''When we have some endpoints to use just like REST API in Odoo, we have response based on JsonRPC format.
+This module allows you to bypass the required schema, so you can just call the endpoint with your JSON response.
 
-You need to define this module in server wide modules configuration.''',
+You need to define this module in server wide modules configuration to activate since first running.''',
     'author': 'Erlangga Indra Permana',
     'website': 'https://erlaangga.github.io',
     'license': 'LGPL-3',
