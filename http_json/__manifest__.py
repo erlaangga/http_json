@@ -22,7 +22,7 @@
     'name': 'Odoo HTTP Json',
     'version': '1.0',
     'category': 'Web',
-    'summary': 'Patch Odoo to support raw JSON response.',
+    'summary': 'Patch Odoo to support raw JSON response',
     'description': '''When we have some endpoints to use just like REST API in Odoo, we have response based on JsonRPC format.
 This module allows you to bypass the required schema, so you can just call the endpoint with your JSON response.
 
